@@ -53,12 +53,6 @@ colnames(mergedset) <- gsub("^(t)", "time.", colnames(mergedset))
 colnames(mergedset) <- gsub("^(f)", "freq.domain.", colnames(mergedset))
 # Change "Acc" for "acceleration."
 colnames(mergedset) <- gsub("acc", "acceleration.", colnames(mergedset))
-# Change "body" for "body."
-colnames(mergedset) <- gsub("body", "body.", colnames(mergedset))
-# Change "jerk" for "jerk."
-colnames(mergedset) <- gsub("jerk", "jerk.", colnames(mergedset))
-# Change "gyro" for "gyro."
-colnames(mergedset) <- gsub("gyro", "gyro.", colnames(mergedset))
 # Change "mag" for "magnitude."
 colnames(mergedset) <- gsub("mag", "magnitude.", colnames(mergedset))
 
