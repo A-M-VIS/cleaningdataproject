@@ -42,9 +42,6 @@ Changes in original data frame and variables:
 - Change "t" for "time."
 - Change "f" for "freq.domain."
 - Change "Acc" for "acceleration."
-- Change "body" for "body."
-- Change "jerk" for "jerk."
-- Change "gyro" for "gyro."
 - Change "mag" for "magnitude."
 
 
